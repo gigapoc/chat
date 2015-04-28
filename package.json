@@ -1,0 +1,8 @@
+{
+  "name": "Chat",
+  "description": "Commodities to talk in the lab",
+  "version": "0.0.1",
+  "engines": {
+    "node": "0.12.0"
+  }
+}
