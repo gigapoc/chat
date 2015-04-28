@@ -1,0 +1,46 @@
+<html>
+
+<head>
+
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+  <title>INRIA students room</title>
+  
+  <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+  <script type="text/javascript" src="/libs/jquery-2.1.3.min.js"></script>
+  <!-- <script src="/libs/ace/ace.js"></script> 
+  <script src="/channel/bcsocket.js"></script>
+  <script src="/share/ace.js"></script> -->
+
+  <link rel="stylesheet" href="index.css" type="text/css">
+
+</head>
+
+<body>
+
+  <h1 id="title"> INRIA students room </h1>
+
+  <div id="container">
+
+    <div id="users-connections">No user connected</div>
+
+    <div id="chat-panel">
+      <div id="chat-discussion"></div>
+
+      <div id="chat-inputs">
+        <form id="chat-form">
+          <input id="chat-text-input" type="text" placeholder="Enter text to chat" />
+          <input id="chat-submit" type="submit" value="Submit" />
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+<!-- Syntax highlighting -->
+<!-- <script type="text/javascript" src="ace.js"></script> -->
+<script type="text/javascript" src="client.js"></script>
+
+</html>
